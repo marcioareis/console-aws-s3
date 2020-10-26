@@ -1,0 +1,11 @@
+{
+    "require": {
+        "symfony/console": "4.4",
+        "aws/aws-sdk-php": "3.158.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "S3Bucket\\": "src/S3Bucket"
+        }
+    }
+}
